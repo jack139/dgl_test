@@ -7,7 +7,8 @@ import torch as th
 import torch.nn.functional as F
 from entity_classify import EntityClassify
 
-from dgl.data.rdf import AIFB, AM, BGS, MUTAG
+#from dgl.data.rdf import AIFB, AM, BGS, MUTAG
+from dgl.data.rdf import AIFBDataset, AMDataset, BGSDataset, MUTAGDataset
 
 
 def main(args):
